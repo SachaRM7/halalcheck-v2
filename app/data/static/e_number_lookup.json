@@ -1,0 +1,17 @@
+{
+  "E100": {
+    "name": "Curcumin",
+    "status": "halal",
+    "explanation": "Plant-derived colorant commonly sourced from turmeric."
+  },
+  "E441": {
+    "name": "Gelatin",
+    "status": "dubious",
+    "explanation": "Requires source verification because gelatin may be animal-derived."
+  },
+  "E471": {
+    "name": "Mono- and diglycerides of fatty acids",
+    "status": "dubious",
+    "explanation": "Can come from plant or animal fat, so certification is important."
+  }
+}
