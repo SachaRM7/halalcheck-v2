@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0f766e">
+    <title>HalalCheck</title>
+    <link rel="manifest" href="/web/manifest.json">
+    <link rel="stylesheet" href="/web/css/style.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header>
+        <p class="eyebrow">Telegram Mini App + PWA</p>
+        <h1>HalalCheck</h1>
+        <p>Scan or search products, explore halal restaurants, and keep a personal halal tracker.</p>
+      </header>
+
+      <section class="panel">
+        <form id="search-form">
+          <label for="barcode">Barcode lookup</label>
+          <div class="row">
+            <input id="barcode" name="barcode" value="8901234567890" placeholder="Enter barcode">
+            <button type="submit">Lookup</button>
+          </div>
+        </form>
+        <pre id="result">Ready.</pre>
+      </section>
+
+      <section class="panel">
+        <h2>Quick links</h2>
+        <div class="actions">
+          <button id="analyze-btn">Analyze ingredients</button>
+          <button id="restaurants-btn">Nearby-style restaurants</button>
+          <button id="install-btn">Install PWA</button>
+        </div>
+      </section>
+    </main>
+    <script src="/web/js/api.js"></script>
+    <script src="/web/js/scanner.js"></script>
+    <script src="/web/js/app.js"></script>
+  </body>
+</html>
